@@ -34,3 +34,8 @@ FROM_LANGUAGE = 'de'
 ```python
 TO_LANGUAGE = 'uk'
 ```
+##### List of fields to translate
+```python
+# is empty by default, so none of field will be translated
+FIELDS_TO_TRANSLATE = ['title', 'description']
+```
